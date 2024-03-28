@@ -1,0 +1,65 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: monospace;
+  background-color: black;
+  color: lime;
+}
+/* 
+  MAIN SECTION
+*/
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.main-section h1 {
+  font-size: 40px;
+}
+.main-section button {
+  font-weight: bold;
+  padding: 15px 40px 15px 40px;
+  background-color: black;
+  color: lime;
+  border: 1px solid lime;
+  border-radius: 50px;
+}
+
+.main-section button:hover {
+  background-color: lime;
+  color: black;
+}
+/* 
+  IMAGES
+*/
+
+.images img {
+  height: 250px;
+  width: 100%;
+}
+/* 
+    OTHER BUTTONS
+*/
+.other-button {
+  visibility: hidden;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+/*
+  images
+*/
+#img2 {
+  display: none;
+}
+#img3 {
+  display: none;
+}
+#img4 {
+  display: none;
+}
